@@ -9,9 +9,10 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Find</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
         <div class="header__cloumb">
           <i class="fa fa-fighter-jet"></i> <i class="fa fa-wifi"></i>
@@ -31,24 +32,26 @@
         <div class="header__cloumb"><span class="header__text">Find</span></div>
       </div>
     </header>
-    <main class="find__options">
-      <div class="find__option">
-        <i class="fa fa-address-book fa-lg"></i
-        ><span class="find__option-title">Find</span>
-      </div>
-      <div class="find__option">
-        <i class="fa fa-qrcode fa-lg"></i
-        ><span class="find__option-title">QR Code</span>
-      </div>
-      <div class="find__option">
-        <i class="fa fa-mobile fa-2x"></i
-        ><span class="find__option-title">Shake</span>
-      </div>
-      <div class="find__option">
-        <i class="fa fa-envelope-o fa-lg"></i
-        ><span class="find__option-title">Invite via SMS</span>
-      </div>
-      <section class="find_recommended">
+    <main class="find">
+      <section class="find__options">
+        <div class="find__option">
+          <i class="fa fa-address-book fa-lg"></i
+          ><span class="find__option-title">Find</span>
+        </div>
+        <div class="find__option">
+          <i class="fa fa-qrcode fa-lg"></i
+          ><span class="find__option-title">QR Code</span>
+        </div>
+        <div class="find__option">
+          <i class="fa fa-mobile fa-lg"></i
+          ><span class="find__option-title">Shake</span>
+        </div>
+        <div class="find__option">
+          <i class="fa fa-envelope-o fa-lg"></i
+          ><span class="find__option-title">Invite via SMS</span>
+        </div>
+      </section>
+      <section class="find__recommended">
         <header><h6 class="recommended__title">Recommended Friends</h6></header>
         <div class="recommended__none">
           <span class="recommended__text"
@@ -57,19 +60,19 @@
         </div>
       </section>
     </main>
-    <nab class="tap-bar">
-      <a href="index.html" class="tap-bar__tap">
-        <i class="fa fa-user"></i><span class="tap-bar__title">Friends</span>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab">
+        <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
       </a>
-      <a href="chats.html" class="tap-bar__tap">
-        <i class="fa fa-comment"></i><span class="tap-bar__title">Chats</span>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
       </a>
-      <a href="find.html" class="tap-bar__tap tap-bar__tap--selected">
-        <i class="fa fa-search"></i><span class="tap-bar__title">Find</span>
+      <a href="find.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
       </a>
-      <a href="more.html" class="tap-bar__tap">
-        <i class="fa fa-ellipsis-h"></i><span class="tap-bar__title">More</span>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
       </a>
-    </nab>
+    </nav>
   </body>
 </html>

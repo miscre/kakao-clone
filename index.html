@@ -9,9 +9,10 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>index</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
         <div class="header__cloumb">
           <i class="fa fa-fighter-jet"></i> <i class="fa fa-wifi"></i>
@@ -44,31 +45,29 @@
         <input type="text" placeholder="Find, friends, chats, Plus Friends" />
       </div>
       <section class="friends__section">
-        <header class="friends__section__header">
-          <h6 class="friends__section__title">MY profile</h6>
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">MY profile</h6>
         </header>
-        <div class="friends__section__rows">
-          <div class="friends__section__row">
-            <a href="profile.html">
-              <img src="images/avatar.jpg" alt="" />
-              <span class="friends__section__name">Nicolas</span>
-            </a>
-          </div>
-          <div class="friends__section__row">
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
             <img src="images/avatar.jpg" alt="" />
-            <span class="friends__section__name">Friend's Names Display</span>
+            <a href="profile.html" class="friends__section-name">Nicolas </a>
+          </div>
+          <div class="friends__section-row">
+            <img src="images/avatar.jpg" alt="" />
+            <span class="friends__section-name">Friend's Names Display</span>
           </div>
         </div>
       </section>
       <section class="friends__section">
-        <header class="friends__section__header">
-          <h6 class="friends__section__title">Friends</h6>
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">Friends</h6>
         </header>
-        <div class="friends__section__rows">
-          <div class="friends__section__row">
-            <div class="friends__section__column">
-              <img src="" alt="" />
-              <span class="friends__section__name">LYNN</span>
+        <div class="friends__section-rows">
+          <div class="friends__section-row with-tangline">
+            <div class="friends__section-column">
+              <img src="images/avatar.jpg" alt="" />
+              <span class="friends__section-name">LYNN</span>
             </div>
             <sapn class="friends__section-tagline">
               Life is short. So live your life.
@@ -77,19 +76,19 @@
         </div>
       </section>
     </main>
-    <nab class="tap-bar">
-      <a href="index.html" class="tap-bar__tap tap-bar__tap--selected">
-        <i class="fa fa-user"></i><span class="tap-bar__title">Friends</span>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
       </a>
-      <a href="chats.html" class="tap-bar__tap">
-        <i class="fa fa-comment"></i><span class="tap-bar__title">Chats</span>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
       </a>
-      <a href="find.html" class="tap-bar__tap">
-        <i class="fa fa-search"></i><span class="tap-bar__title">Find</span>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
       </a>
-      <a href="more.html" class="tap-bar__tap">
-        <i class="fa fa-ellipsis-h"></i><span class="tap-bar__title">More</span>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
       </a>
-    </nab>
+    </nav>
   </body>
 </html>
